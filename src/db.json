@@ -1,0 +1,15 @@
+{
+    "social_media": [
+      { "id": "1", "name": "linkedin", "icon": "linkedin", "link": "https://br.linkedin.com/" },
+      { "id": "2", "name": "github", "icon": "github", "link": "https://br.linkedin.com/" },
+      { "id": "3", "name": "instagram", "icon": "instagram", "link": "https://br.linkedin.com/" },
+      { "id": "4", "name": "discord", "icon": "discord", "link": "https://br.linkedin.com/" }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

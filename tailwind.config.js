@@ -1,12 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
+
+
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lobster: ['Lobster'],
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
